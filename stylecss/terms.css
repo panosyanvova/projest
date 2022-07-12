@@ -1,0 +1,207 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+html{
+	scroll-behavior: smooth;
+}
+
+body{
+	font: 400 1rem/1.625rem "Montserrat", sans-serif;
+}
+
+.termsMain{
+	background-image:url("../img/header-background.jpg");
+	height:70vh;
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-color:#0c0c0c;
+}
+
+.header{
+	padding:34px 24px 32px;
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+}
+
+.vernagir{
+	font-family: "Montserrat", sans-serif;
+	color:#f8b547;
+	transition-duration:1000ms;
+	transition-property:background,transform;
+	transition-timing-function:ease;
+}
+.vernagir:hover{
+	transform:rotate(360deg);
+}
+
+
+.vernagir a{
+	color:#f8b547;	
+	text-decoration: none;
+}
+
+.menu{
+	display:flex;
+}
+
+.menuList{
+	list-style-type: none;
+	margin:10px;
+
+}
+
+.menuList a {
+	text-decoration: none;
+	font-family: "Montserrat", sans-serif;
+	font-weight: 600;
+	font-size:18px;
+	color:#fff;
+}
+
+
+.container{
+	padding-top:40px;
+	padding-bottom:200px;
+	
+}
+
+.containerVernagir{
+	text-align:center;
+	font-size:60px;
+	font-family: "Montserrat", sans-serif;
+	color:#fff;
+	display:flex;
+	justify-content:center;
+	padding-top:60px;
+}
+
+span{
+	margin-top:10px;
+}
+
+.fa-icon,.fa-twit{
+	font-size:30px;
+	color:#f8b547;
+	padding:5px;
+}
+
+.kompNkariDiv{
+	display:flex;
+	justify-content:center;
+	padding-top:15vh;
+}
+
+.kompNkar{
+	width:85vw;
+	border-radius:15px;
+}
+.contentVernagir{
+	display:flex;
+	justify-content:center;
+	width:55vw;
+	padding-bottom:5vh;
+	padding-top:5vh;
+	color: #333;
+    font: 700 1.625rem/2.125rem "Montserrat", sans-serif;
+}
+.textContent{
+	background-color:#efebe5;
+	height:8vh;
+	
+}
+.content{
+	padding-top: 13vh;
+    display: flex;
+    justify-content: center;
+}
+.textContent {
+    background-color: #efebe5;
+	height: 71vh;
+    width: 72vw;
+    padding: 48px;
+}
+h3 {
+    color: #333;
+    font: 700 1.625rem/2.125rem "Montserrat", sans-serif;
+}
+.cank{
+	padding-left:1vw;
+	list-style-type: square;
+}
+.textContent2{
+	padding:48px 134px;
+}
+body, p {
+    color: #555;
+    font: 400 1rem/1.625rem "Montserrat", sans-serif;
+}
+h3 {
+    color: #333;
+    font: 700 1.625rem/2.125rem "Montserrat", sans-serif;
+}
+
+.footer{
+	background-image:url("../img/header-background.jpg");
+	height:45vh;
+	background-color:#fff;
+	background-size:cover;
+	background-repeat:no-repeat;
+	display:flex;
+	justify-content:space-evenly;
+	align-items:center;
+}
+
+.aboutCorso{
+	display:inline-block;
+	width:250px;
+	color:#fff;
+}
+.fa-iconFooter{
+	padding-left:10px;
+}
+.fa-iconFooter:hover{
+	color:#ffbd50;
+}
+.dropDate2{
+	display:none;
+}
+
+.nav ul li:hover .dropDate2 {
+	display: inline-block;
+	position:absolute;
+	background-color:#fff;
+	width:180px;
+	height:120px;
+	border-radius:15px;
+	text-align:center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
